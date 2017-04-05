@@ -1,0 +1,21 @@
+{
+  "name": "@isiahmeadows/min-style",
+  "version": "0.0.1",
+  "description": "A simple, small, sweet CSS-in-JS solution",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && tl"
+  },
+  "author": "Isiah Meadows",
+  "license": "ISC",
+  "files": ["min-style.js", "min-style.min.js"],
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-isiahmeadows": "^0.1.8",
+    "thallium": "^0.3.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
